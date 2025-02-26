@@ -5,7 +5,7 @@ use App\Http\Controllers\Ledgers_crud_controller;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('main');
 
 // Route::resource('/ledgers', Ledgers_crud_controller::class);
 

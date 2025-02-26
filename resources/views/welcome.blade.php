@@ -33,7 +33,7 @@
             <button class="w-4 h-4 rounded-full bg-gray-400 focus:bg-blue-950 cursor-pointer" onclick="setImg2()" id="btn2"></button>
         </div>
     </div>
-    <a href="{{ route('ledgers')}}">แบบทดสอบ dev</a>
+    <a href="{{ route('ledgers')}}" class="p-5 m-2 bg-amber-200">แบบทดสอบ dev</a>
 
     <script>
         function setImg1() {

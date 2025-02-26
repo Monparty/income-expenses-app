@@ -10,6 +10,7 @@
 <body>
     <div class="container mx-auto">
         <h1 class="text-4xl flex justify-center p-10">ระบบบันทึกรายรับรายจ่ายประจำเดือน</h1>
+        <a href="{{ route('main')}}" class="p-5 bg-blue-400 rounded-xl">กลับหน้าแรก</a>
         <a href="{{ route('create')}}" class="p-5 bg-green-400 rounded-xl">เพิ่มรายการ</a>
     </div>
     <div>
